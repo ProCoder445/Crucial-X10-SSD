@@ -1,0 +1,14 @@
+Design:
+ - Grade Letter <-> Number
+ - Safe Input
+
+
+
+Steps:
+ - enum grade Letter : Number 
+ 95 > A+
+ 90 - 95 = A
+ 85 > B+
+ 80 - 85 == B
+ 70 = C
+ 65 <= F
