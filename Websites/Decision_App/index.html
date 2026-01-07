@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Helper App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="It's a quiz">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<form>
+  <strong>
+    For the following questions, pick the answer that most represents you.
+  </strong>
+
+  <br>
+  <label for="focus">Out of a 1-5, where 1 is bad and 5 is good, how would you rate your focus level when studying as you do currently?</label>
+  <select name="Focus Rating" id="focus">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <br>
+  <br>
+
+  <label for="fav_activity">What is your favorite activity to do?</label>
+  <select name="Favorite Activity" id="fav_activity">
+    <option value=""></option>
+    <option value="games">Games</option>
+    <option value="studying">Studying</option>
+    <option value="playing sports">Playing Sports</option>
+  </select>
+  <br>
+  <br>
+
+  <label for="time">How much time are you willing to put in per day</label>
+  <select name="Time/day" id="time">
+    <option value=""></option>
+    <option value="2h">2 Hours</option>
+    <option value="1h">1 Hour</option>
+    <option value="30m">30 Minutes</option>
+    <option value="15m">15 Minutes</option>
+  </select>
+  <br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<p id="analysis"></p>
+<img src="" alt="">
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
